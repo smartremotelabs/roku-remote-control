@@ -7,17 +7,17 @@
    CSS CUSTOM PROPERTIES
    ============================================ */
 :root {
-    --primary: #8B5CF6;
-    --primary-bright: #A78BFA;
-    --primary-glow: rgba(139, 92, 246, 0.25);
-    --primary-glow-soft: rgba(139, 92, 246, 0.10);
+    --primary: #2563EB;
+    --primary-bright: #3B82F6;
+    --primary-glow: rgba(37, 99, 235, 0.25);
+    --primary-glow-soft: rgba(37, 99, 235, 0.10);
     --accent: #06D6A0;          /* teal complement for eyebrows/tags */
     --bg-body: #080810;
     --bg-card: #12121e;
     --bg-card-hover: #18182a;
     --bg-elevated: #0e0e1a;
     --border: rgba(255, 255, 255, 0.07);
-    --border-accent: rgba(139, 92, 246, 0.35);
+    --border-accent: rgba(37, 99, 235, 0.35);
     --text-primary: #f0f0ff;
     --text-secondary: #8888aa;
     --text-muted: #555570;
@@ -25,7 +25,7 @@
     --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.4);
     --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.55);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.7);
-    --shadow-glow: 0 0 40px rgba(139, 92, 246, 0.3);
+    --shadow-glow: 0 0 40px rgba(37, 99, 235, 0.3);
     --radius-sm: 8px;
     --radius-md: 14px;
     --radius-lg: 20px;
@@ -156,8 +156,8 @@ ul li, ol li { margin-bottom: 0.5rem; }
    ANNOUNCEMENT BAR
    ============================================ */
 .announcement-bar {
-    background: rgba(139, 92, 246, 0.12);
-    border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+    background: rgba(37, 99, 235, 0.12);
+    border-bottom: 1px solid rgba(37, 99, 235, 0.2);
     text-align: center;
     padding: 9px 20px;
     font-size: 0.8rem;
@@ -169,8 +169,8 @@ ul li, ol li { margin-bottom: 0.5rem; }
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(139, 92, 246, 0.2);
-    border: 1px solid rgba(139, 92, 246, 0.35);
+    background: rgba(37, 99, 235, 0.2);
+    border: 1px solid rgba(37, 99, 235, 0.35);
     border-radius: var(--radius-pill);
     padding: 3px 12px;
     font-size: 0.75rem;
@@ -204,7 +204,7 @@ header.scrolled {
     background: rgba(8, 8, 16, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom-color: rgba(139, 92, 246, 0.15);
+    border-bottom-color: rgba(37, 99, 235, 0.15);
 }
 
 .nav {
@@ -620,8 +620,8 @@ header.scrolled {
 .feature-icon-wrap {
     width: 44px; height: 44px;
     border-radius: var(--radius-sm);
-    background: rgba(139, 92, 246, 0.12);
-    border: 1px solid rgba(139, 92, 246, 0.2);
+    background: rgba(37, 99, 235, 0.12);
+    border: 1px solid rgba(37, 99, 235, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
