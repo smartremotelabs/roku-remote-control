@@ -1,5 +1,5 @@
 // ============================================
-// Remote for Roku TV – Aruk - Main JavaScript
+// Aruk: TV Remote - Main JavaScript
 // ============================================
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -238,7 +238,7 @@ function trackDownloadClick() {
         gtag('event', 'view_item', {
             items: [{
                 id: 'app_download',
-                name: 'Remote for Roku TV – Aruk Download',
+                name: 'Aruk: TV Remote Download',
                 category: 'app',
                 quantity: 1
             }]
@@ -288,5 +288,5 @@ window.addEventListener('error', function (event) {
 // Console branding
 // ============================================
 
-console.log('%c📺 Remote for Roku TV – Aruk', 'font-size:16px; font-weight:800; color:#2563EB;');
-console.log('%c  Free Roku remote for Android — smartremotelabs.github.io', 'font-size:12px; color:#888;');
+console.log('%c📺 Aruk: TV Remote', 'font-size:16px; font-weight:800; color:#2563EB;');
+console.log('%c  Free TV remote for Android — smartremotelabs.github.io', 'font-size:12px; color:#888;');
