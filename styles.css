@@ -1230,42 +1230,7 @@ footer {
 .sticky-icon { width: 36px; height: 36px; border-radius: 8px; }
 .sticky-text { font-weight: 700; font-size: 0.88rem; flex-grow: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-/* ============================================
-   BLOG STYLES (preserved)
-   ============================================ */
-.blog-section { padding: 80px 0; background: var(--bg-body); }
-.blog-post { max-width: 800px; margin: 0 auto; }
-.blog-meta { display: flex; gap: 20px; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 2rem; }
-.blog-post h2 { text-align: left; margin-top: 2rem; }
-.blog-post h3 { text-align: left; color: var(--primary-bright); margin-top: 1.5rem; }
-.blog-post p { margin-bottom: 1rem; line-height: 1.8; }
-.blog-post ul, .blog-post ol { margin-left: 2rem; margin-bottom: 1.5rem; }
-.blog-post li { margin-bottom: 0.8rem; }
-.blog-post hr { margin: 2rem 0; border: none; border-top: 1px solid var(--border); }
-.blog-cta { text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border); }
-.blog-figure { margin: 2.5rem 0; text-align: center; }
-.blog-figure img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0;
-    border: none;
-    background: transparent;
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));
-    width: 40%;
-    margin: 0 auto;
-    display: block;
-}
-.blog-figure figcaption { margin-top: 1rem; font-size: 0.95rem; color: var(--text-muted); font-style: italic; }
-.blog-listing-section { padding: 80px 0; background: var(--bg-body); }
-.blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 3rem; }
-.blog-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; transition: all var(--transition); }
-.blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); border-color: var(--border-accent); }
-.blog-card-content { padding: 28px; }
-.blog-card h2 { margin: 0 0 0.5rem 0; text-align: left; font-size: 1.2rem; }
-.blog-card h2 a { color: var(--text-primary); }
-.blog-card h2 a:hover { color: var(--primary-bright); }
-.blog-card .blog-meta { margin-bottom: 1rem; }
-.blog-excerpt { color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.75; }
+
 
 /* ============================================
    LEGAL / CONTACT / OTHER PAGES
